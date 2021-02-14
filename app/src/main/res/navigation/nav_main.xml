@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_main"
-    app:startDestination="@id/mainFragment">
+    app:startDestination="@id/mapFragment">
 
     <fragment
-        android:id="@+id/mainFragment"
-        android:name="hs.project.parkingmap.ui.MainFragment"
+        android:id="@+id/mapFragment"
+        android:name="hs.project.parkingmap.ui.MapFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
+        tools:layout="@layout/fragment_map" />
 
 </navigation>

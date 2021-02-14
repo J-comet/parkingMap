@@ -50,6 +50,21 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     /**
+     * 위도,경도 쉽게 사용하도록 해주는 의존성 추가
+     */
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+
+    /**
+     *  위치 추적을 위해 사용
+     */
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+
+    /**
+     * 테드 퍼미션
+     */
+    implementation 'gun0912.ted:tedpermission:2.2.0'
+
+    /**
      * Navigation-Component
     */
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
@@ -62,5 +77,11 @@ dependencies {
      * Naver-Map
      */
     implementation 'com.naver.maps:map-sdk:3.10.2'
+
+    /**
+     * preference
+     */
+//    implementation "androidx.preference:preference:1.1.1" // in Java
+    implementation "androidx.preference:preference-ktx:1.1.1"  // in kotlin
 
 }
